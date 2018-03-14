@@ -1,0 +1,12 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://115.159.105.104:3306/ordermeal?characterEncoding=utf-8
+    username: root
+    password: zxczxc
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+server:
+    port: 8080
